@@ -10,7 +10,7 @@ namespace ScriptureMemorizer
         private List<Word> _words; // array to split the words into 
         private Random _random;
 
-        public Scripture(Reference reference, string text) // structre of a scripture object: ref + text
+        public Scripture(Reference reference, string text) // constructor of a scripture object: ref + text
         {
             _reference = reference;
             _words = new List<Word>();

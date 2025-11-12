@@ -7,7 +7,7 @@ namespace ScriptureMemorizer
         private string _text; // the word itself
         private bool _isHidden; // used to flag if the word is already hidden
 
-        public Word(string text)
+        public Word(string text) // constructor
         {
             _text = text;
             _isHidden = false;

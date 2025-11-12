@@ -9,7 +9,7 @@ namespace ScriptureMemorizer
         private List<Scripture> _scriptures; // list that can hold scripure objects
         private Random _random;
 
-        public ScriptureLibrary()
+        public ScriptureLibrary() //constructor sets up empty array, I could probably optimize to just hard code the verses here to begin with
         {
             _scriptures = new List<Scripture>(); // create empty array
             _random = new Random();

@@ -7,7 +7,7 @@ namespace ScriptureMemorizer
         private int _verse;
         private int? _endVerse; // ? allows null; not all references have more than 1 verse 
 
-        public Reference(string book, int chapter, int startVerse, int? endVerse = null)
+        public Reference(string book, int chapter, int startVerse, int? endVerse = null) // constructor
         {
             _book = book;
             _chapter = chapter;

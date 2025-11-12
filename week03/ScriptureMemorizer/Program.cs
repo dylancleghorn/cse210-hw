@@ -1,3 +1,5 @@
+// enhancement: added multiple scriptures to the library, and select 1 at random
+
 using System;
 
 namespace ScriptureMemorizer
@@ -6,13 +8,13 @@ namespace ScriptureMemorizer
     {
         static void Main(string[] args)
         {
-            // create a list of scriptures
+            // create an empty scripture library object
             ScriptureLibrary scriptureLibrary = new ScriptureLibrary();
 
-            //populate the hardcoded verses into the list 
+            //populate the hardcoded verses into the library private list 
             scriptureLibrary.DefaultVerses();
 
-            // request a random scripture
+            // return a random scripture from the library list
             Scripture selectedScripture = scriptureLibrary.GetRandomScripture();
 
             while (true)
@@ -30,8 +32,8 @@ namespace ScriptureMemorizer
                     break;
                 }
 
-                // Hide a few random words each time
-                selectedScripture.HideRandomWords(3);
+                // Hide random words
+                selectedScripture.HideRandomWords(3); // 3 = three words will be hidden each time
 
                 if (selectedScripture.IsCompletelyHidden())
                 {
