@@ -27,6 +27,6 @@ class Customer
 
     public string GetAddress()
     {
-        return $"{_address.GetStreet()}\n{_address.GetCity()}, {_address.GetState()} {_address.GetZip()}\n{_address.GetCountry()}";
+        return _address.GetAddress();
     }
 }

@@ -30,30 +30,10 @@ class Address
             return false;
         }
     }
-    public string GetStreet()
+    public string GetAddress()
     {
 
-        return _street;
+        return $"{_street}\n{_city}, {_state} {_zip}\n{_country}";
     }
-    public string GetCity()
-    {
 
-        return _city;
-    }
-    public string GetState()
-    {
-
-        return _state;
-    }
-    public string GetZip()
-    {
-
-        return
-        _zip;
-    }
-    public string GetCountry()
-    {
-
-        return _country;
-    }
 }

@@ -56,9 +56,7 @@ class Order
         //list the name and product id of each product in the order
         foreach (Product product in _products)
         {
-            Console.WriteLine(product.GetName());
-            Console.WriteLine(product.GetId());
-            Console.WriteLine(product.GetQuantity());
+            Console.WriteLine(product.GetLabel());
             Console.WriteLine();
 
         }

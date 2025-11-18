@@ -19,20 +19,10 @@ class Product
         return price;
     }
 
-    public string GetName()
+    public string GetLabel()
     {
 
-        return $"Product Name: {_name}";
+        return $"Product Name: {_name}\nProduct ID: {_productId}\nQuantity: {_quantitiy}";
     }
 
-    public string GetId()
-    {
-
-        return $"Product ID: {_productId}";
-    }
-    public string GetQuantity()
-    {
-
-        return $"Quantity: {_quantitiy}";
-    }
 }
