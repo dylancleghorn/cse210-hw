@@ -13,7 +13,5 @@ class Program
         order.GeneratePackingLabel();
         order.GenerateShippingLabel();
 
-
-
     }
 }
