@@ -11,7 +11,6 @@ class ReflectionActivity : Activity
             "Reflection Activity",
             "This activity will help you think about times in your life when you have shown strength and kindness.")
     {
-        // Simple lists. No fancy stuff.
         _prompts.Add("Think of a time when you helped someone who was sad.");
         _prompts.Add("Think of a time when you did something that was hard for you.");
         _prompts.Add("Think of a time when you forgave someone.");
