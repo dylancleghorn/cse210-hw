@@ -1,4 +1,4 @@
-// Create addition: Wim Hof breathing method option
+// Creative addition: Wim Hof breathing method option
 
 using System;
 
